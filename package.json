@@ -1,16 +1,21 @@
 {
-  "name": "prueba-ci-gitlab",
+  "name": "github-actions",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000d\u0000e\u0000m\u0000o\u0000-\u0000c\u0000i\u0000-\u0000g\u0000i\u0000t\u0000h\u0000u\u0000b\u0000-\u0000a\u0000c\u0000t\u0000i\u0000o\u0000n\u0000s\u0000\r\u0000 \u0000",
+  "description": "Demo proyecto para github actions",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "node test/suma.test.js",
+    "test": "node tests/suma.test.js",
     "build": "echo \"Construyendo el proyecto...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismaelGarcia23/demo-ci-github-actions.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismaelGarcia23/demo-ci-github-actions/issues"
+  },
+  "homepage": "https://github.com/ismaelGarcia23/demo-ci-github-actions#readme"
 }
