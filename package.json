@@ -4,7 +4,7 @@
   "description": "Demo proyecto para github actions",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/suma.test.js",
+    "test": "node test/suma.test.js",
     "build": "echo \"Construyendo el proyecto...\""
   },
   "repository": {
