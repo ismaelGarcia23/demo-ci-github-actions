@@ -11,7 +11,8 @@ steps:
 # 1. Descargar el código del repo
 - name: Checkout del código
 uses: actions/checkout@v4
-# 2. Configurar Node.js
+
+
 - name: Configurar Node.js
 uses: actions/setup-node@v4
 with:
